@@ -41,58 +41,19 @@
 <script setup lang="ts">
 const { getAssoName } = useConfig();
 
-const links = [
-  { name: 'Mentions légales', path: '/mentions-legales' },
-  { name: 'Historique', path: '/historique' }
-];
-
-const socials = {
+const socials = 
   cyclopolis: [
-    {
-      name: 'Twitter',
-      href: 'https://twitter.com/benoit_dmgdt',
-      icon: 'mdi:twitter'
-    },
-    {
-      name: 'Github',
-      href: 'https://github.com/benoitdemaegdt/voieslyonnaises',
-      icon: 'mdi:github'
-    },
-    {
-      name: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/benoitdemaegdt',
-      icon: 'mdi:linkedin'
-    }
-  ],
+   
   lvv: [
-    {
-      name: 'Twitter',
-      href: 'https://twitter.com/LaVilleaVelo',
-      icon: 'mdi:twitter'
-    },
-    {
-      name: 'Facebook',
-      href: 'https://www.facebook.com/lavilleavelolyon/',
-      icon: 'mdi:facebook'
-    },
-    {
-      name: 'LinkedIn',
-      href: 'https://www.linkedin.com/company/la-ville-%C3%A0-v%C3%A9lo',
-      icon: 'mdi:linkedin'
-    },
-    {
-      name: 'Instagram',
-      href: 'https://www.instagram.com/lavilleavelolyon',
-      icon: 'mdi:instagram'
-    },
+    
     {
       name: 'Site web',
-      href: 'https://lavilleavelo.org/',
+      href: 'http://maranagolo.org/mobilite-plan-velo',
       icon: 'mdi:link'
     },
     {
       name: 'Email',
-      href: 'mailto:contact_at_lavilleavelo.org',
+      href: 'mailto:h.boulet@maranagolo.fr',
       icon: 'mdi:email-outline'
     }
   ]
